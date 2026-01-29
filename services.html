@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto-École TIGANA | Formations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-row">
+    <div class="brand">
+      <img class="logo-img" src="logo.png" alt="AET TIGANA">
+      <div>
+        <div class="brand-name">AUTO-ÉCOLE TIGANA</div>
+        <div class="brand-tagline">Formations & Permis</div>
+      </div>
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+
+    <nav id="nav" class="nav">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Formations</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-small" href="https://wa.me/22390216946" target="_blank">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<!-- FORMATIONS -->
+<section class="section">
+  <div class="container">
+    <h2>Formations</h2>
+    <p class="muted">Pour les détails et les inscriptions, contactez-nous sur WhatsApp.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Permis Poids Lourd</h3>
+        <p>Programme complet : Code + Simulateur + Conduite + Préparation examen.</p>
+      </div>
+      <div class="card">
+        <h3>Permis Poids Léger</h3>
+        <p>Code + Conduite, progression étape par étape, coaching examen.</p>
+      </div>
+      <div class="card">
+        <h3>Code de la route</h3>
+        <p>Cours, exercices, tests et corrections.</p>
+      </div>
+      <div class="card">
+        <h3>Simulateur</h3>
+        <p>Apprentissage sécurisé pour gagner en réflexes et confiance.</p>
+      </div>
+      <div class="card">
+        <h3>Conduite pratique</h3>
+        <p>Heures de conduite encadrées, sécurité et technique.</p>
+      </div>
+      <div class="card">
+        <h3>Coaching Examen</h3>
+        <p>Conseils, simulation d’épreuve et accompagnement.</p>
+      </div>
+    </div>
+
+    <div class="cta-row" style="margin-top:16px;">
+      <a class="btn" href="https://wa.me/22390216946" target="_blank">S’inscrire / Infos WhatsApp</a>
+      <a class="btn btn-outline" href="tel:+22390216946">Appeler</a>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section class="section alt">
+  <div class="container">
+    <h2>Nos Tarifs</h2>
+    <p class="muted">Tarifs officiels – Auto-École TIGANA (Bamako, ACI200-BACO DJICORONI-FALADIE-SEBENIKORO-KABALA-GARANTIBOUGOU)</p>
+
+    <table border="1" width="100%" cellpadding="12" style="background:white; border-radius:12px; overflow:hidden;">
+      <tr>
+        <th align="left">Formation</th>
+        <th align="left">Prix</th>
+      </tr>
+      <tr>
+        <td>Permis Poids Léger</td>
+        <td><strong>120 000 FCFA</strong></td>
+      </tr>
+      <tr>
+        <td>Permis Poids Lourd</td>
+        <td><strong>150 000 FCFA</strong></td>
+      </tr>
+    </table>
+
+    <div class="cta-row" style="margin-top:16px;">
+      <a class="btn" href="https://wa.me/22390216946" target="_blank">Demander les conditions</a>
+      <a class="btn btn-outline" href="contact.html">Voir Contact</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-row">
+    <p>© 2026 Auto-École TIGANA.</p>
+    <p class="muted">Bamako, ACI200-BACO DJICORONI-FALADIE-SEBENIKORO-KABALA-GARANTIBOUGOU • +223 90216946</p>
+  </div>
+</footer>
+
+<!-- BOUTON WHATSAPP FLOTTANT -->
+<a href="https://wa.me/22390216946" target="_blank"
+style="
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25D366;
+color: white;
+padding: 14px 18px;
+border-radius: 50px;
+font-weight: bold;
+text-decoration: none;
+z-index: 999;
+box-shadow: 0 10px 20px rgba(0,0,0,.15);
+">
+WhatsApp
+</a>
+
+<script>
+  function toggleMenu(){
+    var nav = document.getElementById("nav");
+    nav.classList.toggle("nav-open");
+  }
+</script>
+
+</body>
+</html>

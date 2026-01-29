@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto-École TIGANA | Accueil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<a href="https://wa.me/22390216946" target="_blank"
+style="
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25D366;
+color: white;
+padding: 15px 18px;
+border-radius: 50px;
+font-weight: bold;
+text-decoration: none;
+z-index: 999;
+">
+WhatsApp
+</a>
+<body>
+
+<header class="header">
+  <div class="container header-row">
+    <div class="brand">
+     <img class="logo-img" src="logo.png" alt="AET TIGANA">
+      <div>
+        <div class="brand-name">AUTO-ÉCOLE TIGANA</div>
+        <div class="brand-tagline">Pour mieux conduire, mieux apprendre</div>
+      </div>
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+
+    <nav id="nav" class="nav">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Formations</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-small" href="https://wa.me/22390216946" target="_blank">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Réussissez votre permis avec une formation sérieuse et rapide.</h1>
+      <p>
+        Auto-École TIGANA vous accompagne : Code • Simulateur • Conduite • Permis poids lourd & léger.
+        Inscriptions ouvertes à Bamako, ACI200.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn" href="https://wa.me/22390216946" target="_blank">S’inscrire sur WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+22390216946">Appeler</a>
+        <a class="btn btn-outline" href="services.html">Voir les formations</a>
+      </div>
+
+      <div class="badges">
+        <span class="badge">✅ Moniteurs qualifiés</span>
+        <span class="badge">🕹️ Simulateur</span>
+        <span class="badge">🚛 Poids lourd & léger</span>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Horaires</h3>
+      <p>Lun–Sam : 08h–18h</p>
+
+      <h3>Adresse</h3>
+      <p>Bamako, ACI200</p>
+
+      <h3>Téléphone / WhatsApp</h3>
+      <p>+223 90216946</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Nos formations</h2>
+    <p class="muted">Choisissez votre programme selon votre objectif.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Permis poids lourd</h3>
+        <p>Préparation complète : théorie + pratique + coaching.</p>
+      </div>
+      <div class="card">
+        <h3>Permis poids léger</h3>
+        <p>Apprentissage progressif et préparation examen.</p>
+      </div>
+      <div class="card">
+        <h3>Code • Simulateur • Conduite</h3>
+        <p>Tests, corrections, simulation et conduite encadrée.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container about-grid">
+    <div>
+      <h2>Pourquoi TIGANA ?</h2>
+      <p>
+        Une méthode claire, un suivi réel et un bon encadrement pour conduire en sécurité.
+      </p>
+      <ul class="list">
+        <li>✅ Cours de code + tests</li>
+        <li>✅ Simulateur pour progresser vite</li>
+        <li>✅ Conduite pratique encadrée</li>
+      </ul>
+    </div>
+
+    <div class="about-box">
+      <h3>Inscription rapide</h3>
+      <p>Écrivez-nous sur WhatsApp : <b>+223 90216946</b></p>
+      <p class="muted">Réponse rapide • Infos • Tarifs</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-row">
+    <p>© 2026 Auto-École TIGANA. Tous droits réservés.</p>
+    <p class="muted">Bamako • ACI200</p>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu(){
+    var nav = document.getElementById("nav");
+    nav.classList.toggle("nav-open");
+  }
+</script>
+
+</body>
+</html>
